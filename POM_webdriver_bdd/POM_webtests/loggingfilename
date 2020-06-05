@@ -1,0 +1,192 @@
+ 2020-05-04 00:39:48,874 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "id", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "welcome"}
+ 2020-05-04 00:39:48,894 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 102
+ 2020-05-04 00:39:48,894 : DEBUG : Finished Request
+ 2020-05-04 00:39:48,894 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "id", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "welcome"}
+ 2020-05-04 00:39:48,905 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 102
+ 2020-05-04 00:39:48,907 : DEBUG : Finished Request
+ 2020-05-04 00:39:48,907 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.5571095148306902-1/click {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.5571095148306902-1"}
+ 2020-05-04 00:39:48,970 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.5571095148306902-1/click HTTP/1.1" 200 72
+ 2020-05-04 00:39:48,970 : DEBUG : Finished Request
+ 2020-05-04 00:39:50,971 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "link text", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "Logout"}
+ 2020-05-04 00:39:51,165 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 102
+ 2020-05-04 00:39:51,167 : DEBUG : Finished Request
+ 2020-05-04 00:39:51,167 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "id", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "menu_admin_viewAdminModule"}
+ 2020-05-04 00:39:51,183 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 102
+ 2020-05-04 00:39:51,184 : DEBUG : Finished Request
+ 2020-05-04 00:39:51,184 : DEBUG : GET http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.5571095148306902-3/enabled {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.5571095148306902-3"}
+ 2020-05-04 00:39:51,191 : DEBUG : http://127.0.0.1:57362 "GET /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.5571095148306902-3/enabled HTTP/1.1" 200 72
+ 2020-05-04 00:39:51,193 : DEBUG : Finished Request
+ 2020-05-04 00:39:51,193 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "id", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "menu_admin_viewAdminModule"}
+ 2020-05-04 00:39:51,198 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 102
+ 2020-05-04 00:39:51,198 : DEBUG : Finished Request
+ 2020-05-04 00:39:51,198 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.5571095148306902-3/click {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.5571095148306902-3"}
+ 2020-05-04 00:39:52,938 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.5571095148306902-3/click HTTP/1.1" 200 72
+ 2020-05-04 00:39:52,940 : DEBUG : Finished Request
+ 2020-05-04 00:39:52,940 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "id", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "systemUser-information"}
+ 2020-05-04 00:39:52,969 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 102
+ 2020-05-04 00:39:52,970 : DEBUG : Finished Request
+ 2020-05-04 00:39:54,970 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "id", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "systemUser-information"}
+ 2020-05-04 00:39:54,980 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 102
+ 2020-05-04 00:39:54,980 : DEBUG : Finished Request
+ 2020-05-04 00:39:54,982 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "id", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "welcome"}
+ 2020-05-04 00:39:54,990 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 102
+ 2020-05-04 00:39:54,990 : DEBUG : Finished Request
+ 2020-05-04 00:39:54,990 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.8459661796653164-2/click {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.8459661796653164-2"}
+ 2020-05-04 00:39:55,039 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.8459661796653164-2/click HTTP/1.1" 200 72
+ 2020-05-04 00:39:55,040 : DEBUG : Finished Request
+ 2020-05-04 00:39:55,040 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "link text", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "Logout"}
+ 2020-05-04 00:39:55,256 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 102
+ 2020-05-04 00:39:55,256 : DEBUG : Finished Request
+ 2020-05-04 00:39:55,257 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "link text", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "Logout"}
+ 2020-05-04 00:39:55,267 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 102
+ 2020-05-04 00:39:55,267 : DEBUG : Finished Request
+ 2020-05-04 00:39:55,267 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.8459661796653164-3/click {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.8459661796653164-3"}
+ 2020-05-04 00:39:56,382 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.8459661796653164-3/click HTTP/1.1" 200 72
+ 2020-05-04 00:39:56,384 : DEBUG : Finished Request
+ 2020-05-04 00:39:58,385 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "id", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "txtUsername"}
+ 2020-05-04 00:39:58,395 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 104
+ 2020-05-04 00:39:58,395 : DEBUG : Finished Request
+ 2020-05-04 00:39:58,395 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.011232753777957072-1/clear {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.011232753777957072-1"}
+ 2020-05-04 00:39:58,418 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.011232753777957072-1/clear HTTP/1.1" 200 72
+ 2020-05-04 00:39:58,418 : DEBUG : Finished Request
+ 2020-05-04 00:39:58,420 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "id", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "txtUsername"}
+ 2020-05-04 00:39:58,427 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 104
+ 2020-05-04 00:39:58,427 : DEBUG : Finished Request
+ 2020-05-04 00:39:58,427 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.011232753777957072-1/value {"text": "admin", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.011232753777957072-1", "value": ["a", "d", "m", "i", "n"]}
+ 2020-05-04 00:39:58,467 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.011232753777957072-1/value HTTP/1.1" 200 72
+ 2020-05-04 00:39:58,467 : DEBUG : Finished Request
+ 2020-05-04 00:39:58,467 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "css selector", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "[name='txtPassword']"}
+ 2020-05-04 00:39:58,474 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 104
+ 2020-05-04 00:39:58,474 : DEBUG : Finished Request
+ 2020-05-04 00:39:58,474 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "id", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "txtPassword"}
+ 2020-05-04 00:39:58,483 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 104
+ 2020-05-04 00:39:58,483 : DEBUG : Finished Request
+ 2020-05-04 00:39:58,483 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.011232753777957072-2/clear {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.011232753777957072-2"}
+ 2020-05-04 00:39:58,500 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.011232753777957072-2/clear HTTP/1.1" 200 72
+ 2020-05-04 00:39:58,500 : DEBUG : Finished Request
+ 2020-05-04 00:39:58,500 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "id", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "txtPassword"}
+ 2020-05-04 00:39:58,507 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 104
+ 2020-05-04 00:39:58,507 : DEBUG : Finished Request
+ 2020-05-04 00:39:58,507 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.011232753777957072-2/value {"text": "admin123", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.011232753777957072-2", "value": ["a", "d", "m", "i", "n", "1", "2", "3"]}
+ 2020-05-04 00:39:58,559 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.011232753777957072-2/value HTTP/1.1" 200 72
+ 2020-05-04 00:39:58,559 : DEBUG : Finished Request
+ 2020-05-04 00:39:58,559 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "id", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "btnLogin"}
+ 2020-05-04 00:39:58,569 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 104
+ 2020-05-04 00:39:58,569 : DEBUG : Finished Request
+ 2020-05-04 00:39:58,569 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "id", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "btnLogin"}
+ 2020-05-04 00:39:58,575 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 104
+ 2020-05-04 00:39:58,575 : DEBUG : Finished Request
+ 2020-05-04 00:39:58,575 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.011232753777957072-3/click {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.011232753777957072-3"}
+ 2020-05-04 00:39:59,740 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.011232753777957072-3/click HTTP/1.1" 200 72
+ 2020-05-04 00:39:59,740 : DEBUG : Finished Request
+ 2020-05-04 00:39:59,740 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "id", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "welcome"}
+ 2020-05-04 00:39:59,756 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 103
+ 2020-05-04 00:39:59,756 : DEBUG : Finished Request
+ 2020-05-04 00:39:59,756 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "id", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "welcome"}
+ 2020-05-04 00:39:59,765 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 103
+ 2020-05-04 00:39:59,766 : DEBUG : Finished Request
+ 2020-05-04 00:39:59,766 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.12063490178174563-1/click {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.12063490178174563-1"}
+ 2020-05-04 00:39:59,829 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.12063490178174563-1/click HTTP/1.1" 200 72
+ 2020-05-04 00:39:59,831 : DEBUG : Finished Request
+ 2020-05-04 00:40:01,832 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "link text", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "Logout"}
+ 2020-05-04 00:40:01,865 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 103
+ 2020-05-04 00:40:01,865 : DEBUG : Finished Request
+ 2020-05-04 00:40:01,867 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "id", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "menu_admin_viewAdminModule"}
+ 2020-05-04 00:40:01,874 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 103
+ 2020-05-04 00:40:01,875 : DEBUG : Finished Request
+ 2020-05-04 00:40:01,875 : DEBUG : GET http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.12063490178174563-3/enabled {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.12063490178174563-3"}
+ 2020-05-04 00:40:01,882 : DEBUG : http://127.0.0.1:57362 "GET /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.12063490178174563-3/enabled HTTP/1.1" 200 72
+ 2020-05-04 00:40:01,882 : DEBUG : Finished Request
+ 2020-05-04 00:40:01,884 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "id", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "menu_admin_viewAdminModule"}
+ 2020-05-04 00:40:01,890 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 103
+ 2020-05-04 00:40:01,890 : DEBUG : Finished Request
+ 2020-05-04 00:40:01,891 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.12063490178174563-3/click {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.12063490178174563-3"}
+ 2020-05-04 00:40:02,773 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.12063490178174563-3/click HTTP/1.1" 200 72
+ 2020-05-04 00:40:02,775 : DEBUG : Finished Request
+ 2020-05-04 00:40:02,775 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "id", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "systemUser-information"}
+ 2020-05-04 00:40:02,786 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 102
+ 2020-05-04 00:40:02,786 : DEBUG : Finished Request
+ 2020-05-04 00:40:04,786 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "xpath", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "//*[@id='searchSystemUser_userName']"}
+ 2020-05-04 00:40:04,815 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 102
+ 2020-05-04 00:40:04,816 : DEBUG : Finished Request
+ 2020-05-04 00:40:04,816 : DEBUG : GET http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-2/displayed {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.9125851799397151-2"}
+ 2020-05-04 00:40:04,848 : DEBUG : http://127.0.0.1:57362 "GET /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-2/displayed HTTP/1.1" 200 72
+ 2020-05-04 00:40:04,848 : DEBUG : Finished Request
+ 2020-05-04 00:40:04,849 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "xpath", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "//*[@id='searchSystemUser_userName']"}
+ 2020-05-04 00:40:04,865 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 102
+ 2020-05-04 00:40:04,867 : DEBUG : Finished Request
+ 2020-05-04 00:40:04,867 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-2/clear {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.9125851799397151-2"}
+ 2020-05-04 00:40:04,892 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-2/clear HTTP/1.1" 200 72
+ 2020-05-04 00:40:04,894 : DEBUG : Finished Request
+ 2020-05-04 00:40:04,894 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "xpath", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "//*[@id='searchSystemUser_userName']"}
+ 2020-05-04 00:40:04,904 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 102
+ 2020-05-04 00:40:04,904 : DEBUG : Finished Request
+ 2020-05-04 00:40:04,904 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-2/value {"text": "Rohith", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.9125851799397151-2", "value": ["R", "o", "h", "i", "t", "h"]}
+ 2020-05-04 00:40:04,956 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-2/value HTTP/1.1" 200 72
+ 2020-05-04 00:40:04,957 : DEBUG : Finished Request
+ 2020-05-04 00:40:04,957 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "xpath", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "//*[@id='searchSystemUser_userType']"}
+ 2020-05-04 00:40:04,969 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 102
+ 2020-05-04 00:40:04,970 : DEBUG : Finished Request
+ 2020-05-04 00:40:04,970 : DEBUG : GET http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-3/displayed {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.9125851799397151-3"}
+ 2020-05-04 00:40:04,982 : DEBUG : http://127.0.0.1:57362 "GET /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-3/displayed HTTP/1.1" 200 72
+ 2020-05-04 00:40:04,983 : DEBUG : Finished Request
+ 2020-05-04 00:40:04,983 : DEBUG : GET http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-3/name {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.9125851799397151-3"}
+ 2020-05-04 00:40:04,986 : DEBUG : http://127.0.0.1:57362 "GET /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-3/name HTTP/1.1" 200 76
+ 2020-05-04 00:40:04,986 : DEBUG : Finished Request
+ 2020-05-04 00:40:04,987 : DEBUG : GET http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-3/attribute/multiple {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "name": "multiple", "id": "0.9125851799397151-3"}
+ 2020-05-04 00:40:04,993 : DEBUG : http://127.0.0.1:57362 "GET /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-3/attribute/multiple HTTP/1.1" 200 72
+ 2020-05-04 00:40:04,993 : DEBUG : Finished Request
+ 2020-05-04 00:40:04,993 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-3/elements {"using": "xpath", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.9125851799397151-3", "value": ".//option[normalize-space(.) = \"ESS\"]"}
+ 2020-05-04 00:40:05,147 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-3/elements HTTP/1.1" 200 104
+ 2020-05-04 00:40:05,148 : DEBUG : Finished Request
+ 2020-05-04 00:40:05,148 : DEBUG : GET http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-4/selected {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.9125851799397151-4"}
+ 2020-05-04 00:40:05,263 : DEBUG : http://127.0.0.1:57362 "GET /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-4/selected HTTP/1.1" 200 73
+ 2020-05-04 00:40:05,263 : DEBUG : Finished Request
+ 2020-05-04 00:40:05,265 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-4/click {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.9125851799397151-4"}
+ 2020-05-04 00:40:05,338 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-4/click HTTP/1.1" 200 72
+ 2020-05-04 00:40:05,338 : DEBUG : Finished Request
+ 2020-05-04 00:40:05,338 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "xpath", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "//*[@id='searchSystemUser_employeeName_empName']"}
+ 2020-05-04 00:40:05,349 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 102
+ 2020-05-04 00:40:05,351 : DEBUG : Finished Request
+ 2020-05-04 00:40:05,351 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-5/value {"text": "John Smith", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.9125851799397151-5", "value": ["J", "o", "h", "n", " ", "S", "m", "i", "t", "h"]}
+ 2020-05-04 00:40:05,414 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-5/value HTTP/1.1" 200 72
+ 2020-05-04 00:40:05,414 : DEBUG : Finished Request
+ 2020-05-04 00:40:05,414 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "xpath", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "//*[@id='searchSystemUser_status']"}
+ 2020-05-04 00:40:05,642 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 102
+ 2020-05-04 00:40:05,644 : DEBUG : Finished Request
+ 2020-05-04 00:40:05,644 : DEBUG : GET http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-6/name {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.9125851799397151-6"}
+ 2020-05-04 00:40:05,654 : DEBUG : http://127.0.0.1:57362 "GET /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-6/name HTTP/1.1" 200 76
+ 2020-05-04 00:40:05,655 : DEBUG : Finished Request
+ 2020-05-04 00:40:05,655 : DEBUG : GET http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-6/attribute/multiple {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "name": "multiple", "id": "0.9125851799397151-6"}
+ 2020-05-04 00:40:05,670 : DEBUG : http://127.0.0.1:57362 "GET /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-6/attribute/multiple HTTP/1.1" 200 72
+ 2020-05-04 00:40:05,671 : DEBUG : Finished Request
+ 2020-05-04 00:40:05,671 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-6/elements {"using": "tag name", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.9125851799397151-6", "value": "option"}
+ 2020-05-04 00:40:05,687 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-6/elements HTTP/1.1" 200 174
+ 2020-05-04 00:40:05,688 : DEBUG : Finished Request
+ 2020-05-04 00:40:05,688 : DEBUG : GET http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-7/attribute/index {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "name": "index", "id": "0.9125851799397151-7"}
+ 2020-05-04 00:40:05,696 : DEBUG : http://127.0.0.1:57362 "GET /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-7/attribute/index HTTP/1.1" 200 71
+ 2020-05-04 00:40:05,696 : DEBUG : Finished Request
+ 2020-05-04 00:40:05,697 : DEBUG : GET http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-8/attribute/index {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "name": "index", "id": "0.9125851799397151-8"}
+ 2020-05-04 00:40:05,703 : DEBUG : http://127.0.0.1:57362 "GET /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-8/attribute/index HTTP/1.1" 200 71
+ 2020-05-04 00:40:05,703 : DEBUG : Finished Request
+ 2020-05-04 00:40:05,703 : DEBUG : GET http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-8/selected {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.9125851799397151-8"}
+ 2020-05-04 00:40:05,713 : DEBUG : http://127.0.0.1:57362 "GET /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-8/selected HTTP/1.1" 200 73
+ 2020-05-04 00:40:05,713 : DEBUG : Finished Request
+ 2020-05-04 00:40:05,714 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-8/click {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.9125851799397151-8"}
+ 2020-05-04 00:40:05,743 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-8/click HTTP/1.1" 200 72
+ 2020-05-04 00:40:05,743 : DEBUG : Finished Request
+ 2020-05-04 00:40:05,744 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "xpath", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "//*[@id='searchBtn']"}
+ 2020-05-04 00:40:05,759 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 103
+ 2020-05-04 00:40:05,759 : DEBUG : Finished Request
+ 2020-05-04 00:40:05,759 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-10/click {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "id": "0.9125851799397151-10"}
+ 2020-05-04 00:40:06,786 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element/0.9125851799397151-10/click HTTP/1.1" 200 72
+ 2020-05-04 00:40:06,788 : DEBUG : Finished Request
+ 2020-05-04 00:40:09,788 : DEBUG : POST http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/element {"using": "link text", "sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341", "value": "Rohith"}
+ 2020-05-04 00:40:29,848 : DEBUG : http://127.0.0.1:57362 "POST /session/3a2b8c34542dcfe2d09cc32ab9a52341/element HTTP/1.1" 200 337
+ 2020-05-04 00:40:29,848 : DEBUG : Finished Request
+ 2020-05-04 00:40:29,957 : DEBUG : DELETE http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341/window {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341"}
+ 2020-05-04 00:40:30,022 : DEBUG : http://127.0.0.1:57362 "DELETE /session/3a2b8c34542dcfe2d09cc32ab9a52341/window HTTP/1.1" 200 72
+ 2020-05-04 00:40:30,023 : DEBUG : Finished Request
+ 2020-05-04 00:40:30,023 : DEBUG : DELETE http://127.0.0.1:57362/session/3a2b8c34542dcfe2d09cc32ab9a52341 {"sessionId": "3a2b8c34542dcfe2d09cc32ab9a52341"}
+ 2020-05-04 00:40:30,845 : DEBUG : http://127.0.0.1:57362 "DELETE /session/3a2b8c34542dcfe2d09cc32ab9a52341 HTTP/1.1" 200 40
+ 2020-05-04 00:40:30,845 : DEBUG : Finished Request

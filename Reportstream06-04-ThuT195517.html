@@ -1,0 +1,82 @@
+
+Running tests... 
+----------------------------------------------------------------------
+ test1_Loginpage (POM_webdriver_bdd.POM_webtests.Logintest.LogInpagetest) ... OK (19.083000)s
+ test2_Invalidlogin (POM_webdriver_bdd.POM_webtests.Logintest.LogInpagetest) ... OK (12.371000)s
+ test1_adminmenu (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... SKIP (0.001000)s
+ test2_adminusersearch (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... expected failure
+ test3_Qulification_adds (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... OK (32.803000)s
+ test4_admin_allsubmenu_navigations (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... OK (87.629000)s
+ test5_admin_submenu_navigations (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... ERROR (21.194000)s
+ test6_admin_job_category_add (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... ERROR (20.017000)s
+ test1_performancemenu (POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest) ... SKIP (0.001000)s
+ test2_performancemenu_kpi (POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest) ... ERROR (32.190000)s
+ test3_performancemenu_kpi (POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest) ... OK (189.543000)s
+
+======================================================================
+ERROR [21.194000s]: POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest.test5_admin_submenu_navigations
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webtests\Adminpagetest.py", line 61, in setUp
+    loginpage.enter_username(parser["BEHAV"]["username1"])
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webpages\Loginpage.py", line 57, in enter_username
+    self.driver.find_element_by_id(self.username).clear()
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"txtUsername"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.2.9200 x86_64)
+
+
+======================================================================
+ERROR [20.017000s]: POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest.test6_admin_job_category_add
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webtests\Adminpagetest.py", line 55, in setUp
+    self.driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login")
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+TimeoutException: Message: timeout
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.2.9200 x86_64)
+
+
+======================================================================
+ERROR [32.190000s]: POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest.test2_performancemenu_kpi
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webtests\Performance_kpi_test.py", line 90, in setUp
+    loginpage.enter_username(self.parser["BEHAV"]["username1"])
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webpages\Loginpage.py", line 57, in enter_username
+    self.driver.find_element_by_id(self.username).clear()
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"txtUsername"}
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.2.9200 x86_64)
+
+
+----------------------------------------------------------------------
+Ran 11 tests in 0:07:57
+
+FAILED
+ (Errors=3, Skipped=2, Expected Failures=1)
+
+Generating HTML reports... 
+..\reports1\TestResults_Adminpagetest_PerformaceKPItest_LogInpagetest_2020-06-04_19-55-17.html

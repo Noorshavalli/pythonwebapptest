@@ -1,0 +1,75 @@
+
+Running tests... 
+----------------------------------------------------------------------
+ test1_Loginpage (POM_webdriver_bdd.POM_webtests.Logintest.LogInpagetest) ... OK (18.180000)s
+ test2_Invalidlogin (POM_webdriver_bdd.POM_webtests.Logintest.LogInpagetest) ... OK (12.348000)s
+ test1_adminmenu (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... SKIP (0.000000)s
+ test2_adminusersearch (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... expected failure
+ test3_Qulification_adds (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... ERROR (29.723000)s
+ test4_admin_allsubmenu_navigations (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... ERROR (28.471000)s
+ test5_admin_submenu_navigations (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... ERROR (27.742000)s
+ test6_admin_job_category_add (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... ERROR (27.747000)s
+ test1_performancemenu (POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest) ... SKIP (0.000000)s
+ test2_performancemenu_kpi (POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest) ... OK (195.230000)s
+ test3_performancemenu_kpi (POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest) ... OK (201.860000)s
+
+======================================================================
+ERROR [29.723000s]: POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest.test3_Qulification_adds
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webtests\Adminpagetest.py", line 158, in test3_Qulification_adds
+    adminpage.click_adminmenu()
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webpages\AdminSearchpage.py", line 28, in click_adminmenu
+    WebDriverWait(self.driver,WaitTime).until(lambda driver: driver.find_element(*MH.lOGOUT_ID))
+  File "C:\Python27\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+======================================================================
+ERROR [28.471000s]: POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest.test4_admin_allsubmenu_navigations
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webtests\Adminpagetest.py", line 183, in test4_admin_allsubmenu_navigations
+    adminpage.click_adminmenu()
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webpages\AdminSearchpage.py", line 28, in click_adminmenu
+    WebDriverWait(self.driver,WaitTime).until(lambda driver: driver.find_element(*MH.lOGOUT_ID))
+  File "C:\Python27\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+======================================================================
+ERROR [27.742000s]: POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest.test5_admin_submenu_navigations
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webtests\Adminpagetest.py", line 212, in test5_admin_submenu_navigations
+    adminpage.click_adminmenu()
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webpages\AdminSearchpage.py", line 28, in click_adminmenu
+    WebDriverWait(self.driver,WaitTime).until(lambda driver: driver.find_element(*MH.lOGOUT_ID))
+  File "C:\Python27\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+======================================================================
+ERROR [27.747000s]: POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest.test6_admin_job_category_add
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webtests\Adminpagetest.py", line 240, in test6_admin_job_category_add
+    adminpage.click_adminmenu()
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webpages\AdminSearchpage.py", line 28, in click_adminmenu
+    WebDriverWait(self.driver,WaitTime).until(lambda driver: driver.find_element(*MH.lOGOUT_ID))
+  File "C:\Python27\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+----------------------------------------------------------------------
+Ran 11 tests in 0:10:03
+
+FAILED
+ (Errors=4, Skipped=2, Expected Failures=1)
+
+Generating HTML reports... 
+..\reports1\TestResults_Adminpagetest_PerformaceKPItest_LogInpagetest_2020-06-04_20-36-53.html

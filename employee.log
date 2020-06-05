@@ -1,0 +1,30 @@
+2020-06-03 18:37:11,460:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (None, None, None),funnname:test1_Loginpage
+2020-06-03 18:37:18,657:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Explicit Wait-time monitor:2020-06-03 18:37:18.657000
+2020-06-03 18:37:28,776:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (<class 'selenium.common.exceptions.TimeoutException'>, TimeoutException(), <traceback object at 0x09096DF0>),funnname:test2_Invalidlogin
+2020-06-03 18:41:29,361:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Error - ()
+2020-06-03 18:41:29,361:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Error - ()
+2020-06-03 18:41:30,128:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Stack trace - None -None 
+2020-06-03 18:41:30,128:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Stack trace - None -None 
+2020-06-03 18:41:30,128:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (<class 'selenium.common.exceptions.TimeoutException'>, TimeoutException(), <traceback object at 0x090E3328>),funnname:test2_performancemenu_kpi
+2020-06-03 18:41:30,128:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (<class 'selenium.common.exceptions.TimeoutException'>, TimeoutException(), <traceback object at 0x090E3328>),funnname:test2_performancemenu_kpi
+2020-06-03 18:41:53,644:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (None, None, None),funnname:test1_Loginpage
+2020-06-03 18:41:53,644:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (None, None, None),funnname:test1_Loginpage
+2020-06-03 18:41:53,644:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (None, None, None),funnname:test1_Loginpage
+2020-06-03 18:42:01,477:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Explicit Wait-time monitor:2020-06-03 18:42:01.478000
+2020-06-03 18:42:01,477:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Explicit Wait-time monitor:2020-06-03 18:42:01.478000
+2020-06-03 18:42:01,477:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Explicit Wait-time monitor:2020-06-03 18:42:01.478000
+2020-06-03 18:42:11,700:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (<class 'selenium.common.exceptions.TimeoutException'>, TimeoutException(), <traceback object at 0x09148850>),funnname:test2_Invalidlogin
+2020-06-03 18:42:11,700:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (<class 'selenium.common.exceptions.TimeoutException'>, TimeoutException(), <traceback object at 0x09148850>),funnname:test2_Invalidlogin
+2020-06-03 18:42:11,700:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (<class 'selenium.common.exceptions.TimeoutException'>, TimeoutException(), <traceback object at 0x09148850>),funnname:test2_Invalidlogin
+2020-06-03 18:43:02,986:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Error - ()
+2020-06-03 18:43:02,986:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Error - ()
+2020-06-03 18:43:02,986:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Error - ()
+2020-06-03 18:43:02,986:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Error - ()
+2020-06-03 18:43:02,987:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Stack trace - None -None 
+2020-06-03 18:43:02,987:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Stack trace - None -None 
+2020-06-03 18:43:02,987:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Stack trace - None -None 
+2020-06-03 18:43:02,987:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Stack trace - None -None 
+2020-06-03 18:43:02,987:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (<class 'selenium.common.exceptions.TimeoutException'>, TimeoutException(), <traceback object at 0x0915A8F0>),funnname:test2_performancemenu_kpi
+2020-06-03 18:43:02,987:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (<class 'selenium.common.exceptions.TimeoutException'>, TimeoutException(), <traceback object at 0x0915A8F0>),funnname:test2_performancemenu_kpi
+2020-06-03 18:43:02,987:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (<class 'selenium.common.exceptions.TimeoutException'>, TimeoutException(), <traceback object at 0x0915A8F0>),funnname:test2_performancemenu_kpi
+2020-06-03 18:43:02,987:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (<class 'selenium.common.exceptions.TimeoutException'>, TimeoutException(), <traceback object at 0x0915A8F0>),funnname:test2_performancemenu_kpi
