@@ -1,0 +1,45 @@
+
+Running tests... 
+----------------------------------------------------------------------
+ test1_Loginpage (POM_webdriver_bdd.POM_webtests.Logintest.LogInpagetest) ... OK (20.845000)s
+ test2_Invalidlogin (POM_webdriver_bdd.POM_webtests.Logintest.LogInpagetest) ... OK (12.825000)s
+ test1_adminmenu (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... SKIP (0.000000)s
+ test2_adminusersearch (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... expected failure
+ test3_Qulification_adds (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... OK (32.399000)s
+ test4_admin_allsubmenu_navigations (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... OK (70.503000)s
+ test5_admin_submenu_navigations (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... OK (14.205000)s
+ test6_admin_job_category_add (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... ERROR (9.563000)s
+ test1_performancemenu (POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest) ... SKIP (0.000000)s
+ test2_performancemenu_kpi (POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest) ... OK (189.703000)s
+ test3_performancemenu_kpi (POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest) ... OK (205.679000)s
+ test4_performance_required_field (POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest) ... OK (34.598000)s
+ test5_performance_required_field (POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest) ... OK (36.667000)s
+ test6_performance_required_invalid_field (POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest) ... OK (58.535000)s
+
+======================================================================
+ERROR [9.563000s]: POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest.test6_admin_job_category_add
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webtests\Adminpagetest.py", line 243, in test6_admin_job_category_add
+    driver.find_element(*MU.USER_ADMIN_JOB).click()
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.2.9200 x86_64)
+
+
+----------------------------------------------------------------------
+Ran 14 tests in 0:12:35
+
+FAILED
+ (Errors=1, Skipped=2, Expected Failures=1)
+
+Generating HTML reports... 
+..\reports1\TestResults_Adminpagetest_PerformaceKPItest_LogInpagetest_2020-06-06_01-06-38.html

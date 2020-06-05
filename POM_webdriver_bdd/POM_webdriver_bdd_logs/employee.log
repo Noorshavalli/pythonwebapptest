@@ -1525,3 +1525,447 @@
 2020-06-04 20:47:35,203:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (<class 'selenium.common.exceptions.TimeoutException'>, TimeoutException(), <traceback object at 0x09226558>),funnname:test2_Invalidlogin
 2020-06-04 20:47:35,203:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (<class 'selenium.common.exceptions.TimeoutException'>, TimeoutException(), <traceback object at 0x09226558>),funnname:test2_Invalidlogin
 2020-06-04 20:47:35,203:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (<class 'selenium.common.exceptions.TimeoutException'>, TimeoutException(), <traceback object at 0x09226558>),funnname:test2_Invalidlogin
+2020-06-06 00:49:01,226:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-06 00:49:58,654:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-06 00:51:52,536:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-06 00:59:40,772:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-06 01:06:58,878:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (None, None, None),funnname:test1_Loginpage
+2020-06-06 01:07:06,367:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Explicit Wait-time monitor:2020-06-06 01:07:06.367000
+2020-06-06 01:07:16,578:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (<class 'selenium.common.exceptions.TimeoutException'>, TimeoutException(), <traceback object at 0x0911A030>),funnname:test2_Invalidlogin
+2020-06-06 01:10:53,130:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:10:53,130:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:10:58,983:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:10:58,983:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:04,427:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:04,427:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:10,387:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:10,387:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:15,762:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:15,762:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:21,013:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:21,013:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:26,957:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:26,957:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:32,299:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:32,299:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:37,463:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:37,463:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:42,795:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:42,795:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:48,572:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:48,572:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:53,828:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:53,828:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:59,529:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:11:59,529:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:04,967:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:04,967:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:10,802:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:10,802:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:16,644:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:16,644:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:21,976:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:21,976:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:27,526:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:27,526:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:32,792:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:32,792:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:38,463:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:38,463:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:43,778:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:43,778:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:49,605:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:49,605:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:54,980:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:12:54,980:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:13:00,836:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:13:00,836:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:13:06,594:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:13:06,594:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:13:12,046:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:13:12,046:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:13:12,056:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Closing sheet
+2020-06-06 01:13:12,056:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Closing sheet
+2020-06-06 01:13:12,056:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Closing sheet
+2020-06-06 01:13:12,056:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:13:12,056:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:13:12,056:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:13:12,056:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:13:12,056:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test2_performancemenu_kpi:(None, None, None)
+2020-06-06 01:13:12,056:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test2_performancemenu_kpi:(None, None, None)
+2020-06-06 01:13:12,056:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test2_performancemenu_kpi:(None, None, None)
+2020-06-06 01:13:12,056:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test2_performancemenu_kpi:(None, None, None)
+2020-06-06 01:13:52,579:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:13:52,579:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:13:52,579:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:13:52,579:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:13:57,799:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:13:57,799:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:13:57,799:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:13:57,799:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:05,246:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:05,246:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:05,246:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:05,246:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:11,365:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:11,365:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:11,365:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:11,365:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:17,414:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:17,414:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:17,414:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:17,414:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:22,845:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:22,845:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:22,845:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:22,845:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:28,832:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:28,832:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:28,832:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:28,832:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:34,161:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:34,161:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:34,161:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:34,161:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:40,009:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:40,009:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:40,009:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:40,009:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:45,382:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:45,382:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:45,382:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:45,382:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:52,180:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:52,180:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:52,180:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:52,180:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:57,740:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:57,740:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:57,740:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:14:57,740:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:03,275:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:03,275:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:03,275:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:03,275:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:12,464:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:12,464:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:12,464:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:12,464:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:18,611:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:18,611:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:18,611:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:18,611:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:24,572:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:24,572:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:24,572:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:24,572:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:33,730:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:33,730:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:33,730:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:33,730:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:40,048:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:40,048:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:40,048:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:40,048:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:45,483:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:45,483:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:45,483:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:45,483:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:56,618:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:56,618:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:56,618:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:15:56,618:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:05,318:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:05,318:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:05,318:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:05,318:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:12,611:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:12,611:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:12,611:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:12,611:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:18,536:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:18,536:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:18,536:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:18,536:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:25,444:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:25,444:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:25,444:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:25,444:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:31,828:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:31,828:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:31,828:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:31,828:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:37,736:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:37,736:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:37,736:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:37,736:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:16:37,737:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Closing sheet
+2020-06-06 01:16:37,737:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Closing sheet
+2020-06-06 01:16:37,737:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Closing sheet
+2020-06-06 01:16:37,737:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Closing sheet
+2020-06-06 01:16:37,737:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Closing sheet
+2020-06-06 01:16:37,737:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:16:37,737:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:16:37,737:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:16:37,737:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:16:37,737:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:16:37,737:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:16:37,739:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test3_performancemenu_kpi:(None, None, None)
+2020-06-06 01:16:37,739:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test3_performancemenu_kpi:(None, None, None)
+2020-06-06 01:16:37,739:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test3_performancemenu_kpi:(None, None, None)
+2020-06-06 01:16:37,739:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test3_performancemenu_kpi:(None, None, None)
+2020-06-06 01:16:37,739:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test3_performancemenu_kpi:(None, None, None)
+2020-06-06 01:16:37,739:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test3_performancemenu_kpi:(None, None, None)
+2020-06-06 01:18:47,809:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-06 01:18:47,809:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-06 01:18:47,809:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-06 01:18:47,809:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-06 01:18:47,809:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-06 01:18:47,809:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-06 01:20:50,835:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:20:50,835:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:20:50,835:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:20:50,835:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:20:50,835:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:20:50,835:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:20:50,835:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:20:50,835:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:20:56,447:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:20:56,447:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:20:56,447:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:20:56,447:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:20:56,447:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:20:56,447:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:20:56,447:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:20:56,447:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:01,770:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:01,770:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:01,770:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:01,770:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:01,770:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:01,770:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:01,770:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:01,770:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:07,053:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:07,053:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:07,053:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:07,053:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:07,053:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:07,053:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:07,053:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:07,053:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:12,934:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:12,934:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:12,934:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:12,934:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:12,934:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:12,934:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:12,934:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:12,934:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:18,556:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:18,556:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:18,556:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:18,556:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:18,556:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:18,556:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:18,556:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:18,556:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:24,638:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:24,638:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:24,638:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:24,638:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:24,638:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:24,638:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:24,638:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:24,638:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:30,431:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:30,431:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:30,431:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:30,431:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:30,431:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:30,431:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:30,431:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:30,431:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:36,138:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:36,138:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:36,138:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:36,138:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:36,138:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:36,138:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:36,138:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:36,138:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:41,471:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:41,471:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:41,471:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:41,471:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:41,471:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:41,471:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:41,471:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:41,471:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:47,016:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:47,016:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:47,016:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:47,016:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:47,016:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:47,016:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:47,016:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:47,016:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:53,987:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:53,987:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:53,987:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:53,987:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:53,987:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:53,987:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:53,987:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:53,987:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:59,303:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:59,303:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:59,303:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:59,303:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:59,303:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:59,303:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:59,303:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:21:59,303:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:05,351:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:05,351:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:05,351:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:05,351:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:05,351:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:05,351:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:05,351:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:05,351:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:11,265:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:11,265:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:11,265:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:11,265:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:11,265:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:11,265:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:11,265:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:11,265:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:16,548:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:16,548:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:16,548:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:16,548:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:16,548:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:16,548:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:16,548:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:16,548:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:21,872:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:21,872:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:21,872:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:21,872:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:21,872:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:21,872:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:21,872:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:21,872:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:27,214:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:27,214:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:27,214:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:27,214:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:27,214:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:27,214:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:27,214:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:27,214:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:33,122:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:33,122:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:33,122:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:33,122:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:33,122:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:33,122:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:33,122:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:33,122:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:38,513:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:38,513:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:38,513:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:38,513:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:38,513:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:38,513:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:38,513:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:38,513:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:44,459:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:44,459:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:44,459:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:44,459:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:44,459:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:44,459:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:44,459:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:44,459:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:50,262:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:50,262:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:50,262:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:50,262:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:50,262:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:50,262:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:50,262:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:50,262:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:55,697:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:55,697:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:55,697:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:55,697:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:55,697:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:55,697:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:55,697:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:22:55,697:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:01,630:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:01,630:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:01,630:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:01,630:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:01,630:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:01,630:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:01,630:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:01,630:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:06,851:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:06,851:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:06,851:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:06,851:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:06,851:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:06,851:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:06,851:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:06,851:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:12,888:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:12,888:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:12,888:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:12,888:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:12,888:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:12,888:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:12,888:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:12,888:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:KPI validation-True- None
+2020-06-06 01:23:12,888:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Closing sheet
+2020-06-06 01:23:12,888:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Closing sheet
+2020-06-06 01:23:12,888:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Closing sheet
+2020-06-06 01:23:12,888:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Closing sheet
+2020-06-06 01:23:12,888:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Closing sheet
+2020-06-06 01:23:12,888:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Closing sheet
+2020-06-06 01:23:12,888:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Closing sheet
+2020-06-06 01:23:12,888:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Closing sheet
+2020-06-06 01:23:12,888:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Closing sheet
+2020-06-06 01:23:12,890:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:23:12,890:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:23:12,890:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:23:12,890:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:23:12,890:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:23:12,890:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:23:12,890:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:23:12,890:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:23:12,890:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:23:12,890:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:DDT is completed using excel-sheet
+2020-06-06 01:23:12,891:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test2_performancemenu_kpi:(None, None, None)
+2020-06-06 01:23:12,891:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test2_performancemenu_kpi:(None, None, None)
+2020-06-06 01:23:12,891:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test2_performancemenu_kpi:(None, None, None)
+2020-06-06 01:23:12,891:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test2_performancemenu_kpi:(None, None, None)
+2020-06-06 01:23:12,891:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test2_performancemenu_kpi:(None, None, None)
+2020-06-06 01:23:12,891:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test2_performancemenu_kpi:(None, None, None)
+2020-06-06 01:23:12,891:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test2_performancemenu_kpi:(None, None, None)
+2020-06-06 01:23:12,891:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test2_performancemenu_kpi:(None, None, None)
+2020-06-06 01:23:12,891:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test2_performancemenu_kpi:(None, None, None)
+2020-06-06 01:23:12,891:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:End of TestCase test2_performancemenu_kpi:(None, None, None)
+2020-06-06 01:25:36,569:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-06 01:25:36,569:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-06 01:25:36,569:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-06 01:25:36,569:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-06 01:25:36,569:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-06 01:25:36,569:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-06 01:25:36,569:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-06 01:25:36,569:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-06 01:25:36,569:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-06 01:25:36,569:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available

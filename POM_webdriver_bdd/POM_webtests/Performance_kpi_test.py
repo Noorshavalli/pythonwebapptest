@@ -115,7 +115,7 @@ class PerformaceKPItest(unittest.TestCase):
         except Exception,e:
             logger.debug("Error - {}".format(e.args))
         
-       
+    #@unittest.skip("TestCase skipped due to excessive checks")   
     def test2_performancemenu_kpi(self,):
         try:
             driver = self.driver
@@ -147,7 +147,8 @@ class PerformaceKPItest(unittest.TestCase):
             UtilCalss.takescreenshot_failure(driver,self._testMethodName)
         finally:
             logger.debug("End of TestCase {}:{}".format(self._testMethodName,sys.exc_info()))
-    
+            
+    #@unittest.skip("TestCase skipped due to excessive checks")
     def test3_performancemenu_kpi(self,):
         try:
             driver = self.driver
@@ -173,8 +174,61 @@ class PerformaceKPItest(unittest.TestCase):
             UtilCalss.takescreenshot_failure(driver,self._testMethodName)
         finally:
             logger.debug("End of TestCase {}:{}".format(self._testMethodName,sys.exc_info()))
-    
+    #@unittest.skip("to Test")
+    def test4_performance_required_field(self,):
+        try:
+            driver = self.driver
+            logger = self.logger
+            homepage = HomePage(driver)
+            performancepageobj = PerformancePage(driver)
+            homepage.click_welcome()
+            performancepageobj.performance_page_imple()
             
+            self.assertTrue(performancepageobj.performance_required_field_imple(eval(self.parser['INPUT_FIELDS']['INPUTS'].encode()),
+                                                                                self.parser["PAGECONTAINS"]["KPI_REQ1"].encode()),"required message not placed in page")
+            
+        except AssertionError:
+            logger.debug("Required field validation not available")
+            
+    #@unittest.expectedFailure
+    
+    #@unittest.skip("to Test")
+    def test5_performance_required_field(self,):
+        try:
+            driver = self.driver
+            logger = self.logger
+            homepage = HomePage(driver)
+            performancepageobj = PerformancePage(driver)
+            homepage.click_welcome()
+            
+            performancepageobj.performance_page_imple()
+            
+            self.assertTrue(performancepageobj.performance_required_field_imple(eval(self.parser['INPUT_FIELDS']['INPUTS'].encode()),
+                                                                                self.parser["PAGECONTAINS"]["KPI_REQ"].encode()),"required message not placed in page")
+            
+            
+        except AssertionError:
+            logger.debug("Required field validation not available")     
+     
+    #@unittest.expectedFailure
+    #@unittest.skip("to Test")
+    def test6_performance_required_invalid_field(self,):
+        try:
+            driver = self.driver
+            logger = self.logger
+            homepage = HomePage(driver)
+            performancepageobj = PerformancePage(driver)
+            homepage.click_welcome()
+            
+            performancepageobj.performance_page_imple()
+            
+            self.assertTrue(performancepageobj.performance_invalid_field_imple(eval(self.parser['INPUT_FIELDS']['INPUTS'].encode()),
+                                                                                self.parser["PAGECONTAINS"]["KPI_REQ_INVALID"].encode()),"required message not placed in page")
+            
+            
+        except AssertionError:
+            logger.debug("Required field validation not available")     
+             
         
     @classmethod  
     def tearDownClass(cls):

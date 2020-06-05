@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Report DDT test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">HTML Report DDT test</h2>
+                <p class='attribute'><strong>Start Time: </strong>2020-06-05 23:00:41</p>
+                <p class='attribute'><strong>Duration: </strong>47.85 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 5, Pass: 0, Error: 2, Skip: 3</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.PerformaceKPItest</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='info'>
+                            <td class="col-xs-10">test1_performancemenu</td>
+                            <td class="col-xs-1">
+                                <span class="label label-info" style="display:block;width:40px;">Skip</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">TestCase skipped due to excessive checks</p>
+                            </td>
+                        </tr>
+                        <tr class='info'>
+                            <td class="col-xs-10">test2_performancemenu_kpi</td>
+                            <td class="col-xs-1">
+                                <span class="label label-info" style="display:block;width:40px;">Skip</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">TestCase skipped due to excessive checks</p>
+                            </td>
+                        </tr>
+                        <tr class='info'>
+                            <td class="col-xs-10">test3_performancemenu_kpi</td>
+                            <td class="col-xs-1">
+                                <span class="label label-info" style="display:block;width:40px;">Skip</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">TestCase skipped due to excessive checks</p>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test4_performance_required_field</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Idle
+LogIn page elements <selenium.webdriver.chrome.webdriver.WebDriver (session="fadfddb603970f5da546e6a74507a087")>
+Idle
+Idle
+Idle
+Idle
+Idle
+Idle
+Idle
+Idle
+Idle
+Idle
+('id', 'btnLogin')
+Idle
+Idle
+Idle
+</p><p style="color:maroon;">TimeoutException: Message: timeout
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.2.9200 x86_64)
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webtests\Performance_kpi_test.py", line 92, in setUp
+    loginpage.click_login()
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webpages\Loginpage.py", line 69, in click_login
+    self.driver.find_element(*ML.LOGIN_BUTTON).click()
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+TimeoutException: Message: timeout
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.2.9200 x86_64)
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test5_performance_required_field</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Idle
+</p><p style="color:maroon;">TimeoutException: Message: timeout
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.2.9200 x86_64)
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webtests\Performance_kpi_test.py", line 84, in setUp
+    self.driver.refresh()
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 831, in refresh
+    self.execute(Command.REFRESH)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+TimeoutException: Message: timeout
+  (Session info: chrome=83.0.4103.61)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.2.9200 x86_64)
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 5, Pass: 0, Error: 2, Skip: 3 -- Duration: 47.85 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html
