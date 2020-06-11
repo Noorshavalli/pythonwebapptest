@@ -6,11 +6,16 @@ Created on May 8, 2020
 1) page timeouts
 2) Screenshots save 
 3) xls file reading for data driven testing
+4)smtp email trigger with report attachment
 '''
 import shutil  
 import openpyxl as xllib
 import logging,datetime,re,os,shutil
 import sys
+import time
+
+import smtplib
+
 
 class UtilCalss(object):
     '''
@@ -36,6 +41,9 @@ class UtilCalss(object):
     @staticmethod
     def takescreenshot_failure(driver,methodname):
         timestamp = re.sub('[-:. ]','',str(datetime.datetime.now()))[:-3]
+        ## millseconds to filename of screenshot
+        timestamp1 = time.time()
+        imagts = str(timestamp1).split('.')[0]
         failedtestscreen = os.getcwd() + methodname + timestamp + ".png"
         distdir = 'C:/Users/NOORSHAVALI/eclipse-workspace/HelloPythonWorld/output'
         driver.get_screenshot_as_file(failedtestscreen)
@@ -133,6 +141,10 @@ class UtilCalss(object):
     """               
         
     @staticmethod
+    def send_report_mail():
+        pass
+        
+        
     def  getlogger(self):
         logger = logging.getLogger(__name__)
         #logger.setLevel(logging.INFO)

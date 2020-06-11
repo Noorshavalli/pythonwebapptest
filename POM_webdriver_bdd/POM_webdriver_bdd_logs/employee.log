@@ -1969,3 +1969,12 @@
 2020-06-06 01:25:36,569:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
 2020-06-06 01:25:36,569:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
 2020-06-06 01:25:36,569:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Required field validation not available
+2020-06-09 03:46:12,184:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (None, None, None),funnname:test1_Loginpage
+2020-06-09 03:49:02,753:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (None, None, None),funnname:test1_Loginpage
+2020-06-09 03:49:09,894:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Explicit Wait-time monitor:2020-06-09 03:49:09.895000
+2020-06-09 03:49:20,078:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (<class 'selenium.common.exceptions.TimeoutException'>, TimeoutException(), <traceback object at 0x082EF580>),funnname:test2_Invalidlogin
+2020-06-09 03:52:29,746:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Explicit Wait-time monitor:2020-06-09 03:52:29.747000
+2020-06-09 03:52:50,332:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (<class 'selenium.common.exceptions.TimeoutException'>, TimeoutException(), <traceback object at 0x0832F6E8>),funnname:test2_Invalidlogin
+2020-06-09 03:56:44,546:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (None, None, None),funnname:test1_Loginpage
+2020-06-09 03:56:52,562:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:Explicit Wait-time monitor:2020-06-09 03:56:52.563000
+2020-06-09 03:57:02,655:DEBUG:POM_webdriver_bdd.POM_webdriver_utils.utilities:stack trace (<class 'selenium.common.exceptions.TimeoutException'>, TimeoutException(), <traceback object at 0x083301E8>),funnname:test2_Invalidlogin

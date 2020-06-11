@@ -11,6 +11,7 @@ from configparser import ConfigParser
 import shutil
 import traceback
 import openpyxl as xllib
+from selenium.webdriver.support import events
 
 
 from __builtin__ import True
@@ -36,6 +37,7 @@ from POM_webdriver_bdd.POM_webdriver_utils.utilities import UtilCalss
 from POM_webdriver_bdd.POM_webpages.PerformanceConfigKPIs_page import PerformancePage
 
 from POM_webdriver_bdd.Locators import PerfomanceConfigKPIPageLocators as PU
+from runner_util import FileNotFoundError
 
 
 WaitTime = 15
@@ -47,8 +49,15 @@ class PerformaceKPItest(unittest.TestCase):
     def get_url(cls ,*args):
         cls.args = args
         cls.parser = ConfigParser()
-        cls.parser.read('C:/Users/NOORSHAVALI/eclipse-workspace/HelloPythonWorld/POM_webdriver_bdd/pomconfig.ini')
+        try:
+            cls.parser.read('C:/Users/NOORSHAVALI/eclipse-workspace/HelloPythonWorld/POM_webdriver_bdd/pomconfig.ini')
+        except IOError as e :
+            print("Config property file not available- {}".format(e.args))
+        except Exception,e:
+            print("Config property file not available- {}".format(e.args))
+            
         
+            
         if cls.args[0] == 'page_delay_quick' or cls.args[0] == 'page_delay_medium' or cls.args[0] == 'page_delay_large':
             dtime = (eval(cls.parser['WEBTIMOUTS']['pageloadtimeout'].encode()))[cls.args[0]]
             dtime = int(dtime)

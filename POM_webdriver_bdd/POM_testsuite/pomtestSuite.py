@@ -38,7 +38,7 @@ class Apptesting(unittest.TestCase):
        
  
 if __name__ == "__main__":
-    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(combine_reports=True,report_title='HTML-Report DDT test',output='C:/Users/NOORSHAVALI/eclipse-workspace/HelloPythonWorld/POM_webdriver_bdd/reports1'))
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(combine_reports=True,report_title='HTML-ReportDDTtest',output='C:/Users/NOORSHAVALI/eclipse-workspace/HelloPythonWorld/POM_webdriver_bdd/reports1'))
 
 
 '''    

@@ -28,9 +28,11 @@ from POM_webdriver_bdd.Locators import SearchUserPageLocators as MH
 from POM_webdriver_bdd.POM_webpages.Loginpage import LoginPage
 from POM_webdriver_bdd.POM_webpages.Homepage import HomePage
 from POM_webdriver_bdd.POM_webdriver_utils.utilities import UtilCalss
+from POM_webdriver_bdd.POM_webdriver_bdd_testbase.TestBasePage import BaseClass
 
 
 class LogInpagetest(unittest.TestCase):
+#class LogInpagetest(unittest.TestCase,BaseClass):
     '''
     This function will move to custom utilities  class
     '''
@@ -63,7 +65,16 @@ class LogInpagetest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         try:
+            '''
+            def __init__(self):
+                BaseClass.__init__(self,"parameter quick")
+                BaseClass.initialization()
+                print(BaseClass.driver.title,BaseClass.edriver.title)
+            
+            time.sleep(30)
+            '''
             cls.driver = webdriver.Chrome()
+            
         except TimeoutException:
             print(sys.exc_info())
             
@@ -80,9 +91,11 @@ class LogInpagetest(unittest.TestCase):
         cls.logger = UtilCalss.getlogger(UtilCalss())
     
     def test1_Loginpage(self):
+        
         try:
             print("LogIn page elements {}".format(self.driver))
             self.driver.get((LogInpagetest.get_url('URL')))
+            
             driver = self.driver
             logger = self.logger
         

@@ -10,6 +10,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
 
 from POM_webdriver_bdd.Locators import SearchUserPageLocators as MH
 from POM_webdriver_bdd.Locators import PerfomanceConfigKPIPageLocators as PU
@@ -27,7 +28,7 @@ class PerformancePage(object):
     '''
     classdocs
     '''
-
+    
 
     def __init__(self, driver):
         '''
