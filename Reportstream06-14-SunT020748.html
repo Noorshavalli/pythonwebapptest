@@ -1,0 +1,67 @@
+
+Running tests... 
+----------------------------------------------------------------------
+ test1_Loginpage (POM_webdriver_bdd.POM_webtests.Logintest.LogInpagetest) ... OK (19.016000)s
+ test2_Invalidlogin (POM_webdriver_bdd.POM_webtests.Logintest.LogInpagetest) ... OK (12.887000)s
+ test1_adminmenu (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... SKIP (0.000000)s
+ test2_adminusersearch (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... expected failure
+ test3_Qulification_adds (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... OK (32.774000)s
+ test4_admin_allsubmenu_navigations (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... OK (70.551000)s
+ test5_admin_submenu_navigations (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... OK (13.992000)s
+ test6_admin_job_category_add (POM_webdriver_bdd.POM_webtests.Adminpagetest.Adminpagetest) ... OK (13.857000)s
+ test1_performancemenu (POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest) ... SKIP (0.000000)s
+ test2_performancemenu_kpi (POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest) ... OK (194.939000)s
+ test3_performancemenu_kpi (POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest) ... OK (691.075000)s
+ test4_performance_required_field (POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest) ... ERROR (29.234000)s
+ test5_performance_required_field (POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest) ... ERROR (28.939000)s
+ test6_performance_required_invalid_field (POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest) ... ERROR (28.817000)s
+ test1_Loginpage (POM_webdriver_bdd.POM_webtests.eventfiringlogintest.LogInpageEventFiringtest) ... OK (16.829000)s
+ test2_Invalidlogin (POM_webdriver_bdd.POM_webtests.eventfiringlogintest.LogInpageEventFiringtest) ... OK (12.564000)s
+
+======================================================================
+ERROR [29.234000s]: POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest.test4_performance_required_field
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webtests\Performance_kpi_test.py", line 194, in test4_performance_required_field
+    performancepageobj.performance_page_imple()
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webpages\PerformanceConfigKPIs_page.py", line 41, in performance_page_imple
+    WebDriverWait(self.driver,WaitTime).until(lambda driver: driver.find_element(*MH.lOGOUT_ID))
+  File "C:\Python27\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+======================================================================
+ERROR [28.939000s]: POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest.test5_performance_required_field
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webtests\Performance_kpi_test.py", line 213, in test5_performance_required_field
+    performancepageobj.performance_page_imple()
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webpages\PerformanceConfigKPIs_page.py", line 41, in performance_page_imple
+    WebDriverWait(self.driver,WaitTime).until(lambda driver: driver.find_element(*MH.lOGOUT_ID))
+  File "C:\Python27\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+======================================================================
+ERROR [28.817000s]: POM_webdriver_bdd.POM_webtests.Performance_kpi_test.PerformaceKPItest.test6_performance_required_invalid_field
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webtests\Performance_kpi_test.py", line 232, in test6_performance_required_invalid_field
+    performancepageobj.performance_page_imple()
+  File "C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webpages\PerformanceConfigKPIs_page.py", line 41, in performance_page_imple
+    WebDriverWait(self.driver,WaitTime).until(lambda driver: driver.find_element(*MH.lOGOUT_ID))
+  File "C:\Python27\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+----------------------------------------------------------------------
+Ran 16 tests in 0:20:53
+
+FAILED
+ (Errors=3, Skipped=2, Expected Failures=1)
+
+Generating HTML reports... 
+..\reports1\TestResults_Adminpagetest_PerformaceKPItest_LogInpagetest_LogInpageEventFiringtest_2020-06-14_02-07-48.html

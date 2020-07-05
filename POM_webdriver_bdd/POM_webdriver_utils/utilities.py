@@ -7,13 +7,32 @@ Created on May 8, 2020
 2) Screenshots save 
 3) xls file reading for data driven testing
 4)smtp email trigger with report attachment
+logging.basicConfig(filename=LOG_FILENAME,level = logging.DEBUG,
+format='(%(threadName)-12s) %(time.ctime(time.time())-24s) %(message)s ',
+
+
+public class testprog {
+    static void f (int x) {
+        System.out.println ("num is " + (x+0)); // <- STEP INTO
+    }
+
+    static void g (int x) {
+->      f(x); //
+        f(1); // <----------------------------------- STEP OVER
+    }
+
+    public static void main (String args[]) {
+        g(2);
+        g(3); // <----------------------------------- STEP OUT OF
+    }
+}
 '''
 import shutil  
 import openpyxl as xllib
 import logging,datetime,re,os,shutil
 import sys
 import time
-
+import inspect
 import smtplib
 
 
@@ -119,6 +138,8 @@ class UtilCalss(object):
             sheetname = workbookname.sheetnames[-1].encode()
             if sheetname is not None:
                 sheetobj = workbookname.get_sheet_by_name(sheetname)
+                #workbookname.active
+                
             else:
                 sheetobj = workbookname.get_sheet_by_name("Sheet6")
         except Exception as e:
@@ -146,12 +167,14 @@ class UtilCalss(object):
         
         
     def  getlogger(self):
-        logger = logging.getLogger(__name__)
+        #from which method function get called
+        loggername = inspect.stack()[1][3]
+        #logger = logging.getLogger(__name__)
+        logger = logging.getLogger(loggername)
         #logger.setLevel(logging.INFO)
         logger.setLevel(logging.DEBUG)
 
         formatter = logging.Formatter('%(asctime)s:%(levelname)s:%(name)s:%(message)s')
-
         file_handler = logging.FileHandler('../../POM_webdriver_bdd/POM_webdriver_bdd_logs/employee.log')
         file_handler.setFormatter(formatter)
 

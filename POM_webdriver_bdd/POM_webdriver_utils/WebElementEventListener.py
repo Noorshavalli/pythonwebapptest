@@ -14,7 +14,7 @@ from selenium.webdriver.support.events import EventFiringWebDriver, AbstractEven
 
 class EventListeners(AbstractEventListener):
     def before_navigate_to(self, url, driver):
-        print("-before_navigate_to %s" % url)
+        print("event firing-before_navigate_to %s" % url)
 
     def after_navigate_to(self, url, driver):
         print("-after_navigate_to %s" % url)

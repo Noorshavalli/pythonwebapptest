@@ -67,7 +67,11 @@ class BaseClass(object):
         
     @staticmethod    
     def initialization():  
+        
         try:
+            BaseClass.parser = ConfigParser()
+            parser = BaseClass.parser
+            parser.read('../../POM_webdriver_bdd/pomconfig.ini')
             if BaseClass.parser["BEHAV"]["browser"] == "chrome":
                 driver = webdriver.Chrome(executable_path=r'C:\\Python27\\Scripts\\chromedriver.exe')
                 
@@ -82,11 +86,13 @@ class BaseClass(object):
         except Exception as e:
             print("File handling exception {}".format(e.args))
             
-        edriver = EventFiringWebDriver(driver,EventListeners())  
-        driver = edriver
+        BaseClass.edriver = EventFiringWebDriver(driver,EventListeners())  
+        driver = BaseClass.edriver
         driver.get(BaseClass.parser['BEHAV']['URL'])
-        edriver.maximize_window()
-        time.sleep(10)
+        BaseClass.edriver.maximize_window()
+        time.sleep(2)
+        return (BaseClass.edriver,driver)
+        
         
 if __name__ == "__main__":
     baseobj = BaseClass('page_delay_quick')

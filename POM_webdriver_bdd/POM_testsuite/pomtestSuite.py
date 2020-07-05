@@ -1,12 +1,13 @@
 '''
 Created on May 4, 2020
-
+C:\Users\NOORSHAVALI\eclipse-workspace\HelloPythonWorld\POM_webdriver_bdd\POM_webtests\eventfiringlogintest.py
 @author: NOORSHAVALI
 '''
 import unittest,HtmlTestRunner
 from POM_webdriver_bdd.POM_webtests.Adminpagetest import Adminpagetest
 from POM_webdriver_bdd.POM_webtests.Logintest import LogInpagetest
 from POM_webdriver_bdd.POM_webtests.Performance_kpi_test  import PerformaceKPItest
+from POM_webdriver_bdd.POM_webtests.eventfiringlogintest import LogInpageEventFiringtest
 
 import time
 import logging
@@ -22,11 +23,12 @@ class Apptesting(unittest.TestCase):
         tc1= unittest.TestLoader().loadTestsFromTestCase(LogInpagetest)
         tc2= unittest.TestLoader().loadTestsFromTestCase(Adminpagetest)
         tc3= unittest.TestLoader().loadTestsFromTestCase(PerformaceKPItest)
+        tc4 = unittest.TestLoader().loadTestsFromTestCase(LogInpageEventFiringtest)
 ### Cteating test suites 
         sanityTestsuite = unittest.TestSuite([tc1])
         funcitonalTestsuite = unittest.TestSuite([tc2])
         RegressionTestsuite = unittest.TestSuite([tc3,tc2])
-        masterTestSuite = unittest.TestSuite([tc1,tc2,tc3])
+        masterTestSuite = unittest.TestSuite([tc1,tc2,tc3,tc4])
         timestamp = time.strftime("%m-%d-%aT%H%M%S", time.localtime())
         #unittest.TextTestRunner(verbosity=4).run(masterTestSuite)
         fp = open("../../Reportstream"+ timestamp +".html","w")

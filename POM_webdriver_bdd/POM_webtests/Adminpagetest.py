@@ -54,6 +54,18 @@ class Adminpagetest(unittest.TestCase,AdminPage):
         print("LogIn page elements {}".format(self.driver))
         self.driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login")
         print("Desired capabilities: {}".format(driver.desired_capabilities))
+        '''
+        Desired capabilities: {u'takesScreenshot': True, u'acceptSslCerts': False, u'networkConnectionEnabled': False,
+         u'mobileEmulationEnabled': False, u'unexpectedAlertBehaviour': u'', u'applicationCacheEnabled': False, 
+         u'locationContextEnabled': True, u'rotatable': False, u'acceptInsecureCerts': False, u'hasTouchScreen': False, 
+         u'platform': u'Windows NT', u'version': u'83.0.4103.97', u'nativeEvents': True, u'handlesAlerts': True,
+          u'takesHeapSnapshot': True, u'javascriptEnabled': True, u'databaseEnabled': False, u'browserName': u'chrome', 
+          u'webStorageEnabled': True, u'browserConnectionEnabled': False, u'cssSelectorsEnabled': True, 
+          u'chrome': {u'chromedriverVersion': u'2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)', 
+          u'userDataDir': u'C:\\Users\\NOORSH~1\\AppData\\Local\\Temp\\scoped_dir4992_18930'}, u'setWindowRect': True, 
+          u'pageLoadStrategy': u'normal'}
+I
+        '''
         parser =Adminpagetest.get_url_parser()
         #self.parser["BEHAV"]["username"]
         # print("")
