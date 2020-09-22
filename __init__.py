@@ -1,1 +1,1 @@
-Git pull request added
+'''Git pull request added'''
