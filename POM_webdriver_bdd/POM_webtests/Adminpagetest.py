@@ -62,7 +62,8 @@ class Adminpagetest(unittest.TestCase,AdminPage):
         loginpage.enter_password(parser["BEHAV"]["password"])
         loginpage.click_login()
         '''
-        alrt=    driver.switch_to_alert()
+        #alrt=    driver.switch_to_alert()
+        alrt = driver.switch_to_alert()
         alert.Alert.accept(self)
         alert.Alert.dismiss(self)
         alert.Alert.text
